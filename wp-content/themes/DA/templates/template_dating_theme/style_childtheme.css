@@ -1,0 +1,69 @@
+/*------------------------------------------------------*/
+/* SEARCH RESULTS
+/*------------------------------------------------------*/
+
+.wlt_search_results.grid_style .thumbnail { padding:0px; }
+.wlt_search_results.grid_style .thumbnail .content { padding:10px; }
+.wlt_search_results.grid_style .wlt_shortcode_excerpt { clear: both;    display: block;    margin-top: 10px;}
+
+.wlt_search_results.grid_style .wlt_shortcode_favs a { text-indent:-9999px; }
+/* can change the icon here fro adding or removing a mentor f005 =star  */
+.wlt_search_results.grid_style .wlt_shortcode_favs a:before {     font: normal normal normal 14px/1 FontAwesome; content: "\f005"; margin-left:5px; color:#ddd; }
+.wlt_search_results.grid_style .list_favorites_remove:before { color:red !important; }
+.wlt_search_results.grid_style .wlt_shortcode_favs span { display:none; }
+
+._searchresultsblock .form-control  {     font-size: 21px;    height: 43px;}
+._searchresultsblock .ext1 li {
+    padding-top: 8px;
+ 
+    float: right;
+    padding: 10px;
+    color: #fff;
+    margin-right: 10px;
+}
+._searchresultsblock .ext1 li a { color:#fff; text-decoration:none; }
+._searchresultsblock .form-inline input { width:230px; }
+
+/* PROFILE BUTTONS *
+.profilebuttons { border: 1px solid #dfdfdf; border-right:0px; margin-bottom:2px; clear:both;     margin-top: 20px;    background: #fff; text-align:center;  }
+.profilebuttons .col-md-3 {  width:25% !important; line-height:35px;     background: #222;      border: 1px solid #000; font-size: 14px;    text-transform: uppercase; }
+.profilebuttons .col-md-3 a { padding:8px; display:block; color:#fff; font-family: 'Oswald';  }
+.profilebuttons .col-md-3 a i { margin-left:-5px; float: left;    line-height: 35px;    font-size: 20px;    color: #9C9C9C;  }
+.profilebuttons .col-md-3:hover { background:#444; }
+.grid_style .profilebuttons .col-md-3 a span { display:none; }
+*/
+
+/* PROFILE BUTTONS - Expand column and take out the send a gift aspect  */
+.profilebuttons { border: 1px solid #dfdfdf; border-right:0px; margin-bottom:2px; clear:both;     margin-top: 20px;    background: #fff; text-align:center;  }
+.profilebuttons .col-md-4 {  width:33.333333333% !important; line-height:35px;     background: #222;      border: 1px solid #000; font-size: 14px;    text-transform: uppercase; }
+.profilebuttons .col-md-4 a { padding:8px; display:block; color:#fff; font-family: 'Oswald';  }
+.profilebuttons .col-md-4 a i { margin-left:-5px; float: left;    line-height: 35px;    font-size: 20px;    color: #9C9C9C;  }
+.profilebuttons .col-md-4:hover { background:#444; }
+.grid_style .profilebuttons .col-md-4 a span { display:none; }
+
+
+
+
+
+
+/* ONLINE/ OFFLINE STATUS */
+.profileonline { color:#00CC33; }
+.profileoffline { color:red; }
+.grid_style .wlt_shortcode_onlinestatus span { display:none; }
+
+/* GIFT IDEAS */
+.giftideas { border:1px solid #ddd; border-right:0px; border-bottom:0px; margin:0px; padding:0px; }
+.giftideas li { padding:15px; border-right:1px solid #ddd; border-bottom:1px solid #ddd; list-style:none; float:left; width:25%; text-align:center; }
+.giftideas li img { max-width:100px; max-height:100px; }
+.giftideas li:hover  { background:#fafafa; }
+.giftideas li.selected { background:rgb(228, 253, 228); }
+
+.lastonline { font-size:12px; }
+
+.single .table>tbody>tr>th, .single .table>tbody>tr>td { border-top:1px dashed #ccc; }
+
+/*------------------------------------------------------*/
+/* HOME PAGE
+/*------------------------------------------------------*/
+.home .demomode .jumbostyle1 .jumbotron  {  background: url('../../../../../democontent/template_dating_theme/banner.jpg') bottom left no-repeat;  }
+ 
